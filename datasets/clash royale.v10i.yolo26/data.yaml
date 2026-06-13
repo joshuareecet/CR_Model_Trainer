@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 40
+names: ['archer', 'baby dragon', 'baloon', 'barbarian', 'barbarian barrel', 'cannon', 'dark prince', 'electro wizard', 'elite barbarians', 'executioner', 'fire spirit', 'fireball', 'furnace', 'goblin', 'goblin giant', 'goblin hut', 'golem', 'graveyard', 'heal spirit', 'hog rider', 'ice golem', 'ice spirit', 'ice wizard', 'knight', 'log', 'mega knight', 'mega minion', 'mini pekka', 'musketeer', 'poison', 'prince', 'rage', 'skeleton', 'skeletons', 'sparky', 'spear goblin', 'tesla', 'valkyrie', 'vines', 'x-bow']
+
+roboflow:
+  workspace: lorenzo-6wjgp
+  project: clash-royale-iu7g4
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lorenzo-6wjgp/clash-royale-iu7g4/dataset/10
